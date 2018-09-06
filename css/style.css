@@ -1,0 +1,170 @@
+*{
+    box-sizing: border-box; 
+    margin: 0%; 
+    padding: 0%;
+}
+
+#navAnker a{
+    text-decoration: none;  
+    padding: 5px 15px;
+}
+
+#navAnker a:not(.sinNav){
+    border: 1px solid #F9FAFB;
+    border-radius: 50px;
+}
+.sinNav{
+    border: 1px solid rgb(3, 139, 92);
+    border-radius: 50px;
+}
+
+.computer{
+    background-color:  rgb(2, 184, 120)
+}
+
+.head-text{
+    font-family: 'Open Sans Condensed', sans-serif;
+    opacity: 0.7;
+    font-weight: 100;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.jcc{
+    text-align: center;
+}
+
+.mb-3 input, #s1{
+    padding: 5px 10px;
+    border: none;
+    margin-right: 0px;
+    border-top-left-radius: 100px 100px;
+    border-bottom-left-radius: 100px 100px;
+}
+
+.mb-3 button, #s3{
+    padding: 5px 10px 6px 10px;
+    color: white;
+    margin-left: -4px;
+    border: none;
+    border-top-right-radius: 50px 50px;
+    border-bottom-right-radius: 50px 50px;
+}
+
+#community{
+    background-color: rgba(175, 164, 164, 0.63);
+}
+
+#community .col12 .fa-sign-in-alt{
+    font-size: 70px;
+}
+
+.fa-chevron-down , .fa-chevron-up{
+    font-size: 32px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 100;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.btsSign button{
+    font-size: 24px;
+    border: 1px solid rgb(2, 184, 120) ;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+    color: rgb(2, 184, 120) ;
+    margin-bottom: 5px;
+}
+
+.btsSign button:hover{
+    border: 1px solid rgb(2, 184, 120) ;
+    background-color: rgb(2, 184, 120);
+    color: white;
+  }
+
+  #s2{
+    background-color: rgb(5, 145, 96);
+    margin-left: -20px;
+    border-radius: 50%;
+  }
+
+  #s3, #s1{
+      border:1px solid gray;
+      border-left: none;
+  }
+  #s3{
+    margin-left: -20px;
+  }
+
+  .brd-gray{
+    border: 1px solid gray;
+  }
+
+  .price{
+      border-radius: 50%;
+      margin: 0% auto;
+      margin-bottom: 50px;
+      border: 2px solid gray;
+  }
+
+  .price p{
+      font-size: 8px;
+      font-style: italic;
+  }
+
+  
+ .head-br{
+    border-bottom: none;
+  }
+
+  .purchase{
+      margin-top: -100px;
+  }
+
+  .headPad{
+      padding-bottom: 100px;
+  }
+
+  .purandsal{
+      margin-top: -50px;
+  }
+
+  .con{
+      display: flex; 
+      flex-direction: row;
+  }
+
+  .purchaseBtn{
+      border: 1px solid rgb(5, 145, 96); 
+      border-radius: 25px;
+      background-color: white; 
+      color: black
+  }
+
+.purchaseBtn:hover{
+    border-radius: 25px;
+    background-color: rgb(5, 145, 96); 
+    color: white;
+}
+
+.infos{
+    background-color: rgba(175, 164, 164, 0.63)
+}
+
+.arrowBtn{
+    border: none; 
+    padding: 3px;
+    font-size: 22px;
+}
+
+#copy{
+    line-height: 0px;
+    font-size: 10px;
+    text-align: right;
+}
+
